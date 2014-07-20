@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3020,6 +3020,19 @@ Green</description>
 <wire x1="0.365" y1="-1.5" x2="1" y2="-0.865" width="0.127" layer="51" curve="90"/>
 <wire x1="1" y1="-0.865" x2="1" y2="-0.5" width="0.127" layer="51"/>
 <wire x1="1" y1="-0.5" x2="-1" y2="-0.5" width="0.127" layer="51"/>
+</package>
+<package name="0603(LED)">
+<description>0603 (1.6mm x 0.8mm) LED footprint from King Bright
+http://www.kingbrightusa.com/images/catalog/SPEC/APT1608SECK-J4-PRV.pdf</description>
+<smd name="1" x="-0.825" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="2" x="0.825" y="0" dx="0.8" dy="0.8" layer="1"/>
+</package>
+<package name="0805(LED)">
+<description>0805 LED footprint from King Bright
+http://www.kingbrightusa.com/images/catalog/SPEC/APT2012SECK-J4-PRV.pdf</description>
+<smd name="1" x="-1.175" y="0" dx="1.25" dy="1.1" layer="1" thermals="no"/>
+<smd name="2" x="1.175" y="0" dx="1.25" dy="1.1" layer="1" thermals="no"/>
+<rectangle x1="0" y1="-0.55" x2="0.55" y2="0.55" layer="21"/>
 </package>
 </packages>
 <symbols>
