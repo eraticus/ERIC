@@ -3230,6 +3230,59 @@ from ATMEL AtMega328 datasheet</description>
 <rectangle x1="-1.46" y1="1.6" x2="-1.24" y2="2" layer="51"/>
 <smd name="28" x="-1.35" y="1.85" dx="0.17" dy="0.5" layer="1"/>
 </package>
+<package name="QFN_20-PIN_ATMEL_20M1">
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.0254" layer="21"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.0254" layer="21"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.0254" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.0254" layer="21"/>
+<smd name="EP" x="0" y="0" dx="2.6" dy="2.6" layer="1" cream="no"/>
+<rectangle x1="-1.1534875" y1="-1.1534875" x2="-0.1465125" y2="-0.1465125" layer="31"/>
+<rectangle x1="-1.1534875" y1="0.1465125" x2="-0.1465125" y2="1.1534875" layer="31"/>
+<rectangle x1="0.1465125" y1="-1.1534875" x2="1.1534875" y2="-0.1465125" layer="31"/>
+<rectangle x1="0.1465125" y1="0.1465125" x2="1.1534875" y2="1.1534875" layer="31"/>
+<rectangle x1="-2" y1="0.885" x2="-1.6" y2="1.115" layer="51"/>
+<smd name="1" x="-1.85" y="1" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="-2" y1="0.385" x2="-1.6" y2="0.615" layer="51"/>
+<smd name="2" x="-1.85" y="0.5" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="-2" y1="-0.115" x2="-1.6" y2="0.115" layer="51"/>
+<smd name="3" x="-1.85" y="0" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="-2" y1="-0.615" x2="-1.6" y2="-0.385" layer="51"/>
+<smd name="4" x="-1.85" y="-0.5" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="-2" y1="-1.115" x2="-1.6" y2="-0.885" layer="51"/>
+<smd name="5" x="-1.85" y="-1" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="-1.115" y1="-2" x2="-0.885" y2="-1.6" layer="51"/>
+<smd name="6" x="-1" y="-1.85" dx="0.18" dy="0.5" layer="1"/>
+<rectangle x1="-0.615" y1="-2" x2="-0.385" y2="-1.6" layer="51"/>
+<smd name="7" x="-0.5" y="-1.85" dx="0.18" dy="0.5" layer="1"/>
+<rectangle x1="-0.115" y1="-2" x2="0.115" y2="-1.6" layer="51"/>
+<smd name="8" x="0" y="-1.85" dx="0.18" dy="0.5" layer="1"/>
+<rectangle x1="0.385" y1="-2" x2="0.615" y2="-1.6" layer="51"/>
+<smd name="9" x="0.5" y="-1.85" dx="0.18" dy="0.5" layer="1"/>
+<rectangle x1="0.885" y1="-2" x2="1.115" y2="-1.6" layer="51"/>
+<smd name="10" x="1" y="-1.85" dx="0.18" dy="0.5" layer="1"/>
+<rectangle x1="1.6" y1="-1.115" x2="2" y2="-0.885" layer="51"/>
+<smd name="11" x="1.85" y="-1" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="1.6" y1="-0.615" x2="2" y2="-0.385" layer="51"/>
+<smd name="12" x="1.85" y="-0.5" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="1.6" y1="-0.115" x2="2" y2="0.115" layer="51"/>
+<smd name="13" x="1.85" y="0" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="1.6" y1="0.385" x2="2" y2="0.615" layer="51"/>
+<smd name="14" x="1.85" y="0.5" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="1.6" y1="0.885" x2="2" y2="1.115" layer="51"/>
+<smd name="15" x="1.85" y="1" dx="0.5" dy="0.18" layer="1"/>
+<rectangle x1="0.885" y1="1.6" x2="1.115" y2="2" layer="51"/>
+<smd name="16" x="1" y="1.85" dx="0.18" dy="0.5" layer="1"/>
+<rectangle x1="0.385" y1="1.6" x2="0.615" y2="2" layer="51"/>
+<smd name="17" x="0.5" y="1.85" dx="0.18" dy="0.5" layer="1"/>
+<rectangle x1="-0.115" y1="1.6" x2="0.115" y2="2" layer="51"/>
+<smd name="18" x="0" y="1.85" dx="0.18" dy="0.5" layer="1"/>
+<rectangle x1="-0.615" y1="1.6" x2="-0.385" y2="2" layer="51"/>
+<smd name="19" x="-0.5" y="1.85" dx="0.18" dy="0.5" layer="1"/>
+<rectangle x1="-1.115" y1="1.6" x2="-0.885" y2="2" layer="51"/>
+<smd name="20" x="-1" y="1.85" dx="0.18" dy="0.5" layer="1"/>
+<circle x="-3" y="1" radius="0.32175" width="0" layer="21"/>
+<circle x="-3" y="1" radius="0.40478125" width="0" layer="43"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX712">
@@ -6821,33 +6874,6 @@ CLV6A-FKB</description>
 <gate name="G$1" symbol="ATTINY2313" x="2.54" y="7.62"/>
 </gates>
 <devices>
-<device name="QFN" package="QFN_20_4X4">
-<connects>
-<connect gate="G$1" pin="GND" pad="8 EP"/>
-<connect gate="G$1" pin="PA0" pad="3"/>
-<connect gate="G$1" pin="PA1" pad="2"/>
-<connect gate="G$1" pin="PA2(!RESET!)" pad="19"/>
-<connect gate="G$1" pin="PB0" pad="10"/>
-<connect gate="G$1" pin="PB1" pad="11"/>
-<connect gate="G$1" pin="PB2" pad="12"/>
-<connect gate="G$1" pin="PB3" pad="13"/>
-<connect gate="G$1" pin="PB4" pad="14"/>
-<connect gate="G$1" pin="PB5(MOSI)" pad="15"/>
-<connect gate="G$1" pin="PB6(MISO)" pad="16"/>
-<connect gate="G$1" pin="PB7(SCK)" pad="17"/>
-<connect gate="G$1" pin="PD0(RXD)" pad="20"/>
-<connect gate="G$1" pin="PD1(TXD)" pad="1"/>
-<connect gate="G$1" pin="PD2" pad="4"/>
-<connect gate="G$1" pin="PD3" pad="5"/>
-<connect gate="G$1" pin="PD4" pad="6"/>
-<connect gate="G$1" pin="PD5" pad="7"/>
-<connect gate="G$1" pin="PD6" pad="9"/>
-<connect gate="G$1" pin="VCC" pad="18"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="DIP" package="DIP20">
 <connects>
 <connect gate="G$1" pin="GND" pad="10"/>
@@ -6870,6 +6896,33 @@ CLV6A-FKB</description>
 <connect gate="G$1" pin="PD5" pad="9"/>
 <connect gate="G$1" pin="PD6" pad="11"/>
 <connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="20M1" package="QFN_20-PIN_ATMEL_20M1">
+<connects>
+<connect gate="G$1" pin="GND" pad="8 EP"/>
+<connect gate="G$1" pin="PA0" pad="3"/>
+<connect gate="G$1" pin="PA1" pad="2"/>
+<connect gate="G$1" pin="PA2(!RESET!)" pad="19"/>
+<connect gate="G$1" pin="PB0" pad="10"/>
+<connect gate="G$1" pin="PB1" pad="11"/>
+<connect gate="G$1" pin="PB2" pad="12"/>
+<connect gate="G$1" pin="PB3" pad="13"/>
+<connect gate="G$1" pin="PB4" pad="14"/>
+<connect gate="G$1" pin="PB5(MOSI)" pad="15"/>
+<connect gate="G$1" pin="PB6(MISO)" pad="16"/>
+<connect gate="G$1" pin="PB7(SCK)" pad="17"/>
+<connect gate="G$1" pin="PD0(RXD)" pad="20"/>
+<connect gate="G$1" pin="PD1(TXD)" pad="1"/>
+<connect gate="G$1" pin="PD2" pad="4"/>
+<connect gate="G$1" pin="PD3" pad="5"/>
+<connect gate="G$1" pin="PD4" pad="6"/>
+<connect gate="G$1" pin="PD5" pad="7"/>
+<connect gate="G$1" pin="PD6" pad="9"/>
+<connect gate="G$1" pin="VCC" pad="18"/>
 </connects>
 <technologies>
 <technology name=""/>
