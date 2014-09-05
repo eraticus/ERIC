@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,8 +22,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -3385,6 +3385,48 @@ http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf</descript
 <rectangle x1="1.8288" y1="1.4605" x2="3.0988" y2="1.7145" layer="51"/>
 <rectangle x1="1.8288" y1="2.0955" x2="3.0988" y2="2.3495" layer="51"/>
 <rectangle x1="1.8288" y1="2.7305" x2="3.0988" y2="2.9845" layer="51"/>
+</package>
+<package name="RES_ARRAY_8_YAEGO_YC248">
+<wire x1="2" y1="0.5" x2="2" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-0.5" x2="-2" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.8" x2="2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="2" y1="0.8" x2="2" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="2" y1="-0.8" x2="-2" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-2" y1="-0.8" x2="-2" y2="0.8" width="0.127" layer="21"/>
+<rectangle x1="-1.975" y1="-0.8" x2="-1.525" y2="-0.4" layer="51"/>
+<rectangle x1="-1.475" y1="-0.8" x2="-1.025" y2="-0.4" layer="51"/>
+<rectangle x1="-0.975" y1="-0.8" x2="-0.525" y2="-0.4" layer="51"/>
+<rectangle x1="-0.475" y1="-0.8" x2="-0.025" y2="-0.4" layer="51"/>
+<rectangle x1="0.025" y1="-0.8" x2="0.475" y2="-0.4" layer="51"/>
+<rectangle x1="0.525" y1="-0.8" x2="0.975" y2="-0.4" layer="51"/>
+<rectangle x1="1.025" y1="-0.8" x2="1.475" y2="-0.4" layer="51"/>
+<rectangle x1="1.525" y1="-0.8" x2="1.975" y2="-0.4" layer="51"/>
+<rectangle x1="-1.975" y1="0.4" x2="-1.525" y2="0.8" layer="51"/>
+<rectangle x1="-1.475" y1="0.4" x2="-1.025" y2="0.8" layer="51"/>
+<rectangle x1="-0.975" y1="0.4" x2="-0.525" y2="0.8" layer="51"/>
+<rectangle x1="-0.475" y1="0.4" x2="-0.025" y2="0.8" layer="51"/>
+<rectangle x1="0.025" y1="0.4" x2="0.475" y2="0.8" layer="51"/>
+<rectangle x1="0.525" y1="0.4" x2="0.975" y2="0.8" layer="51"/>
+<rectangle x1="1.025" y1="0.4" x2="1.475" y2="0.8" layer="51"/>
+<rectangle x1="1.525" y1="0.4" x2="1.975" y2="0.8" layer="51"/>
+<smd name="1" x="-1.75" y="-0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="2" x="-1.25" y="-0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="3" x="-0.75" y="-0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="4" x="-0.25" y="-0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="5" x="0.25" y="-0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="6" x="0.75" y="-0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="7" x="1.25" y="-0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="8" x="1.75" y="-0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="9" x="1.75" y="0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="10" x="1.25" y="0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="11" x="0.75" y="0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="12" x="0.25" y="0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="13" x="-0.25" y="0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="14" x="-0.75" y="0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="15" x="-1.25" y="0.625" dx="0.297" dy="0.55" layer="1"/>
+<smd name="16" x="-1.75" y="0.625" dx="0.297" dy="0.55" layer="1"/>
+<text x="0" y="2" size="0.8128" layer="1" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="-2" size="0.8128" layer="1" font="vector" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
