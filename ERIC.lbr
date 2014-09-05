@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
@@ -1781,8 +1781,8 @@ Digi-Key Part Number	ED1088TR-ND</description>
 <smd name="4" x="-1.775" y="0" dx="0.45" dy="0.27" layer="1"/>
 <smd name="5" x="-1.775" y="-0.45" dx="0.45" dy="0.27" layer="1"/>
 <smd name="6" x="-1.775" y="-0.9" dx="0.45" dy="0.27" layer="1"/>
-<smd name="7" x="-1.775" y="-1.35" dx="0.45" dy="0.22" layer="1"/>
-<smd name="8" x="-1.35" y="-1.8" dx="0.22" dy="0.45" layer="1"/>
+<smd name="7" x="-1.875" y="-1.35" dx="0.25" dy="0.22" layer="1"/>
+<smd name="8" x="-1.35" y="-1.9" dx="0.22" dy="0.25" layer="1"/>
 <smd name="9" x="-0.9" y="-1.8" dx="0.27" dy="0.45" layer="1"/>
 <smd name="10" x="-0.45" y="-1.8" dx="0.27" dy="0.45" layer="1"/>
 <smd name="11" x="0" y="-1.8" dx="0.27" dy="0.45" layer="1"/>
@@ -1803,6 +1803,14 @@ Digi-Key Part Number	ED1088TR-ND</description>
 <smd name="26" x="-0.45" y="1.8" dx="0.27" dy="0.45" layer="1"/>
 <smd name="27" x="-0.9" y="1.8" dx="0.27" dy="0.45" layer="1"/>
 <smd name="28" x="-1.35" y="1.8" dx="0.22" dy="0.45" layer="1"/>
+<rectangle x1="-7.62" y1="-1.27" x2="-6.35" y2="0" layer="21"/>
+<smd name="P$1" x="-3" y="-1" dx="0.2" dy="0.2" layer="1"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4" y="0"/>
+<vertex x="-2.5" y="0"/>
+<vertex x="-2.5" y="-1.5"/>
+<vertex x="-4" y="-1.5"/>
+</polygon>
 </package>
 <package name="TURRET_TERMINAL_1502">
 <pad name="1" x="0" y="0" drill="2.39" diameter="3.81"/>
@@ -3308,6 +3316,75 @@ from ATMEL AtMega328 datasheet</description>
 <circle x="-3" y="-3" radius="0.35" width="0" layer="21"/>
 <circle x="-3" y="-3" radius="0.45" width="0" layer="43"/>
 <text x="-4" y="0" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="SSOP-20">
+<description>SSOP-20 footprint from
+FT231X USB TO FULL HANDSHAKE UART IC Datasheet 
+http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf</description>
+<rectangle x1="-3.0988" y1="2.7305" x2="-1.8288" y2="2.9845" layer="51"/>
+<rectangle x1="-3.0988" y1="2.0955" x2="-1.8288" y2="2.3495" layer="51"/>
+<rectangle x1="-3.0988" y1="1.4605" x2="-1.8288" y2="1.7145" layer="51"/>
+<rectangle x1="-3.0988" y1="0.8255" x2="-1.8288" y2="1.0795" layer="51"/>
+<rectangle x1="-3.0988" y1="0.1905" x2="-1.8288" y2="0.4445" layer="51"/>
+<rectangle x1="-3.0988" y1="-0.4445" x2="-1.8288" y2="-0.1905" layer="51"/>
+<rectangle x1="-3.0988" y1="-1.0795" x2="-1.8288" y2="-0.8255" layer="51"/>
+<rectangle x1="-3.0988" y1="-1.7145" x2="-1.8288" y2="-1.4605" layer="51"/>
+<rectangle x1="-3.0988" y1="-2.3495" x2="-1.8288" y2="-2.0955" layer="51"/>
+<rectangle x1="-3.0988" y1="-2.9845" x2="-1.8288" y2="-2.7305" layer="51"/>
+<rectangle x1="1.8288" y1="-2.9845" x2="3.0988" y2="-2.7305" layer="51"/>
+<rectangle x1="1.8288" y1="-2.3495" x2="3.0988" y2="-2.0955" layer="51"/>
+<rectangle x1="1.8288" y1="-1.7145" x2="3.0988" y2="-1.4605" layer="51"/>
+<rectangle x1="1.8288" y1="-1.0795" x2="3.0988" y2="-0.8255" layer="51"/>
+<rectangle x1="1.8288" y1="-0.4445" x2="3.0988" y2="-0.1905" layer="51"/>
+<rectangle x1="1.8288" y1="0.1905" x2="3.0988" y2="0.4445" layer="51"/>
+<rectangle x1="1.8288" y1="0.8255" x2="3.0988" y2="1.0795" layer="51"/>
+<rectangle x1="1.8288" y1="1.4605" x2="3.0988" y2="1.7145" layer="51"/>
+<rectangle x1="1.8288" y1="2.0955" x2="3.0988" y2="2.3495" layer="51"/>
+<rectangle x1="1.8288" y1="2.7305" x2="3.0988" y2="2.9845" layer="51"/>
+<rectangle x1="-3.0988" y1="2.7305" x2="-1.8288" y2="2.9845" layer="51"/>
+<rectangle x1="-3.0988" y1="2.0955" x2="-1.8288" y2="2.3495" layer="51"/>
+<rectangle x1="-3.0988" y1="1.4605" x2="-1.8288" y2="1.7145" layer="51"/>
+<rectangle x1="-3.0988" y1="0.8255" x2="-1.8288" y2="1.0795" layer="51"/>
+<rectangle x1="-3.0988" y1="0.1905" x2="-1.8288" y2="0.4445" layer="51"/>
+<rectangle x1="-3.0988" y1="-0.4445" x2="-1.8288" y2="-0.1905" layer="51"/>
+<rectangle x1="-3.0988" y1="-1.0795" x2="-1.8288" y2="-0.8255" layer="51"/>
+<rectangle x1="-3.0988" y1="-1.7145" x2="-1.8288" y2="-1.4605" layer="51"/>
+<rectangle x1="-3.0988" y1="-2.3495" x2="-1.8288" y2="-2.0955" layer="51"/>
+<rectangle x1="-3.0988" y1="-2.9845" x2="-1.8288" y2="-2.7305" layer="51"/>
+<rectangle x1="1.8288" y1="-2.9845" x2="3.0988" y2="-2.7305" layer="51"/>
+<rectangle x1="1.8288" y1="-2.3495" x2="3.0988" y2="-2.0955" layer="51"/>
+<rectangle x1="1.8288" y1="-1.7145" x2="3.0988" y2="-1.4605" layer="51"/>
+<rectangle x1="1.8288" y1="-1.0795" x2="3.0988" y2="-0.8255" layer="51"/>
+<rectangle x1="1.8288" y1="-0.4445" x2="3.0988" y2="-0.1905" layer="51"/>
+<rectangle x1="1.8288" y1="0.1905" x2="3.0988" y2="0.4445" layer="51"/>
+<rectangle x1="1.8288" y1="0.8255" x2="3.0988" y2="1.0795" layer="51"/>
+<rectangle x1="1.8288" y1="1.4605" x2="3.0988" y2="1.7145" layer="51"/>
+<rectangle x1="1.8288" y1="2.0955" x2="3.0988" y2="2.3495" layer="51"/>
+<rectangle x1="1.8288" y1="2.7305" x2="3.0988" y2="2.9845" layer="51"/>
+<wire x1="-1.9558" y1="4.3307" x2="1.9558" y2="4.3307" width="0.127" layer="21"/>
+<wire x1="1.9558" y1="4.3307" x2="1.9558" y2="-4.3307" width="0.127" layer="21"/>
+<wire x1="1.9558" y1="-4.3307" x2="-1.9558" y2="-4.3307" width="0.127" layer="21"/>
+<wire x1="-1.9558" y1="-4.3307" x2="-1.9558" y2="4.3307" width="0.127" layer="21"/>
+<rectangle x1="-3.0988" y1="2.7305" x2="-1.8288" y2="2.9845" layer="51"/>
+<rectangle x1="-3.0988" y1="2.0955" x2="-1.8288" y2="2.3495" layer="51"/>
+<rectangle x1="-3.0988" y1="1.4605" x2="-1.8288" y2="1.7145" layer="51"/>
+<rectangle x1="-3.0988" y1="0.8255" x2="-1.8288" y2="1.0795" layer="51"/>
+<rectangle x1="-3.0988" y1="0.1905" x2="-1.8288" y2="0.4445" layer="51"/>
+<rectangle x1="-3.0988" y1="-0.4445" x2="-1.8288" y2="-0.1905" layer="51"/>
+<rectangle x1="-3.0988" y1="-1.0795" x2="-1.8288" y2="-0.8255" layer="51"/>
+<rectangle x1="-3.0988" y1="-1.7145" x2="-1.8288" y2="-1.4605" layer="51"/>
+<rectangle x1="-3.0988" y1="-2.3495" x2="-1.8288" y2="-2.0955" layer="51"/>
+<rectangle x1="-3.0988" y1="-2.9845" x2="-1.8288" y2="-2.7305" layer="51"/>
+<rectangle x1="1.8288" y1="-2.9845" x2="3.0988" y2="-2.7305" layer="51"/>
+<rectangle x1="1.8288" y1="-2.3495" x2="3.0988" y2="-2.0955" layer="51"/>
+<rectangle x1="1.8288" y1="-1.7145" x2="3.0988" y2="-1.4605" layer="51"/>
+<rectangle x1="1.8288" y1="-1.0795" x2="3.0988" y2="-0.8255" layer="51"/>
+<rectangle x1="1.8288" y1="-0.4445" x2="3.0988" y2="-0.1905" layer="51"/>
+<rectangle x1="1.8288" y1="0.1905" x2="3.0988" y2="0.4445" layer="51"/>
+<rectangle x1="1.8288" y1="0.8255" x2="3.0988" y2="1.0795" layer="51"/>
+<rectangle x1="1.8288" y1="1.4605" x2="3.0988" y2="1.7145" layer="51"/>
+<rectangle x1="1.8288" y1="2.0955" x2="3.0988" y2="2.3495" layer="51"/>
+<rectangle x1="1.8288" y1="2.7305" x2="3.0988" y2="2.9845" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -4850,6 +4927,32 @@ http://www.diodes.com/datasheets/AP7331.pdf</description>
 <text x="2.54" y="7.62" size="1.778" layer="94" font="vector" align="center">&gt;NAME</text>
 <text x="2.54" y="-7.62" size="1.778" layer="94" font="vector" align="center">&gt;VALUE</text>
 </symbol>
+<symbol name="FTDI231X">
+<description>FT231X USB TO FULL HANDSHAKE UART IC</description>
+<pin name="VCCIO" x="-17.78" y="5.08" length="middle"/>
+<pin name="VCC" x="-17.78" y="0" length="middle"/>
+<pin name="USBDM" x="-17.78" y="-2.54" length="middle"/>
+<pin name="USBDP" x="-17.78" y="-5.08" length="middle"/>
+<pin name="!RST" x="-17.78" y="-12.7" length="middle"/>
+<pin name="GND" x="-17.78" y="-7.62" length="middle"/>
+<pin name="TXD" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="RXD" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="!RTS" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="!CTS" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="!DTR" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="!DSR" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="!DCD" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="!RI" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="CBUS0" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="CBUS1" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="CBUS2" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="CBUS3" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-25.4" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="3V3OUT" x="-17.78" y="7.62" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAX756">
@@ -6307,76 +6410,6 @@ CLV6A-FKB</description>
 <gate name="G$1" symbol="ATMEGA_328_28_PIN" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="28MLF" package="ATMEL_28M1">
-<connects>
-<connect gate="G$1" pin="AREF" pad="17"/>
-<connect gate="G$1" pin="AVCC" pad="16"/>
-<connect gate="G$1" pin="GND@1" pad="4 TG"/>
-<connect gate="G$1" pin="GND@2" pad="18"/>
-<connect gate="G$1" pin="PB0(ICP)" pad="10"/>
-<connect gate="G$1" pin="PB1(OC1A)" pad="11"/>
-<connect gate="G$1" pin="PB2(SS/OC1B)" pad="12"/>
-<connect gate="G$1" pin="PB3(MOSI/OC2)" pad="13"/>
-<connect gate="G$1" pin="PB4(MISO)" pad="14"/>
-<connect gate="G$1" pin="PB5(SCK)" pad="15"/>
-<connect gate="G$1" pin="PB6(XTAL1/TOSC1)" pad="5"/>
-<connect gate="G$1" pin="PB7(XTAL2/TOSC2)" pad="6"/>
-<connect gate="G$1" pin="PC0(ADC0)" pad="19"/>
-<connect gate="G$1" pin="PC1(ADC1)" pad="20"/>
-<connect gate="G$1" pin="PC2(ADC2)" pad="21"/>
-<connect gate="G$1" pin="PC3(ADC3)" pad="22"/>
-<connect gate="G$1" pin="PC4(ADC4/SDA)" pad="23"/>
-<connect gate="G$1" pin="PC5(ADC5/SCL)" pad="24"/>
-<connect gate="G$1" pin="PC6(/RESET)" pad="25"/>
-<connect gate="G$1" pin="PD0(RXD)" pad="26"/>
-<connect gate="G$1" pin="PD1(TXD)" pad="27"/>
-<connect gate="G$1" pin="PD2(INT0)" pad="28"/>
-<connect gate="G$1" pin="PD3(INT1)" pad="1"/>
-<connect gate="G$1" pin="PD4(XCK/T0)" pad="2"/>
-<connect gate="G$1" pin="PD5(T1)" pad="7"/>
-<connect gate="G$1" pin="PD6(AIN0)" pad="8"/>
-<connect gate="G$1" pin="PD7(AIN1)" pad="9"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="28MLF_V2" package="ATMEL_28M1_V2">
-<connects>
-<connect gate="G$1" pin="AREF" pad="17"/>
-<connect gate="G$1" pin="AVCC" pad="16"/>
-<connect gate="G$1" pin="GND@1" pad="4 TG"/>
-<connect gate="G$1" pin="GND@2" pad="18"/>
-<connect gate="G$1" pin="PB0(ICP)" pad="10"/>
-<connect gate="G$1" pin="PB1(OC1A)" pad="11"/>
-<connect gate="G$1" pin="PB2(SS/OC1B)" pad="12"/>
-<connect gate="G$1" pin="PB3(MOSI/OC2)" pad="13"/>
-<connect gate="G$1" pin="PB4(MISO)" pad="14"/>
-<connect gate="G$1" pin="PB5(SCK)" pad="15"/>
-<connect gate="G$1" pin="PB6(XTAL1/TOSC1)" pad="5"/>
-<connect gate="G$1" pin="PB7(XTAL2/TOSC2)" pad="6"/>
-<connect gate="G$1" pin="PC0(ADC0)" pad="19"/>
-<connect gate="G$1" pin="PC1(ADC1)" pad="20"/>
-<connect gate="G$1" pin="PC2(ADC2)" pad="21"/>
-<connect gate="G$1" pin="PC3(ADC3)" pad="22"/>
-<connect gate="G$1" pin="PC4(ADC4/SDA)" pad="23"/>
-<connect gate="G$1" pin="PC5(ADC5/SCL)" pad="24"/>
-<connect gate="G$1" pin="PC6(/RESET)" pad="25"/>
-<connect gate="G$1" pin="PD0(RXD)" pad="26"/>
-<connect gate="G$1" pin="PD1(TXD)" pad="27"/>
-<connect gate="G$1" pin="PD2(INT0)" pad="28"/>
-<connect gate="G$1" pin="PD3(INT1)" pad="1"/>
-<connect gate="G$1" pin="PD4(XCK/T0)" pad="2"/>
-<connect gate="G$1" pin="PD5(T1)" pad="7"/>
-<connect gate="G$1" pin="PD6(AIN0)" pad="8"/>
-<connect gate="G$1" pin="PD7(AIN1)" pad="9"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="32-PIN_QFN" package="QFN32_ATMEL_32M1-A">
 <connects>
 <connect gate="G$1" pin="AREF" pad="20"/>
