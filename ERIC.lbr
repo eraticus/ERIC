@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3425,8 +3425,8 @@ http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf</descript
 <smd name="14" x="-0.75" y="0.625" dx="0.297" dy="0.55" layer="1"/>
 <smd name="15" x="-1.25" y="0.625" dx="0.297" dy="0.55" layer="1"/>
 <smd name="16" x="-1.75" y="0.625" dx="0.297" dy="0.55" layer="1"/>
-<text x="0" y="2" size="0.8128" layer="1" font="vector" align="center">&gt;VALUE</text>
-<text x="0" y="-2" size="0.8128" layer="1" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="2" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="-2" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -6391,7 +6391,7 @@ CLV6A-FKB</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR_ARRAY_8">
+<deviceset name="RESISTOR_ARRAY_8" uservalue="yes">
 <gates>
 <gate name="A" symbol="RESISTOR" x="0" y="25.4" swaplevel="1"/>
 <gate name="B" symbol="RESISTOR" x="0" y="17.78" swaplevel="1"/>
@@ -6404,6 +6404,29 @@ CLV6A-FKB</description>
 </gates>
 <devices>
 <device name="" package="RESISTOR_ARRAY_YAEGO_YC248">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="16"/>
+<connect gate="B" pin="1" pad="2"/>
+<connect gate="B" pin="2" pad="15"/>
+<connect gate="C" pin="1" pad="3"/>
+<connect gate="C" pin="2" pad="14"/>
+<connect gate="D" pin="1" pad="4"/>
+<connect gate="D" pin="2" pad="13"/>
+<connect gate="E" pin="1" pad="5"/>
+<connect gate="E" pin="2" pad="12"/>
+<connect gate="F" pin="1" pad="6"/>
+<connect gate="F" pin="2" pad="11"/>
+<connect gate="G" pin="1" pad="7"/>
+<connect gate="G" pin="2" pad="10"/>
+<connect gate="H" pin="1" pad="8"/>
+<connect gate="H" pin="2" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="YC248_2" package="RES_ARRAY_8_YAEGO_YC248">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="16"/>
