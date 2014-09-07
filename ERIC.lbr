@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3389,8 +3389,8 @@ http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf</descript
 <package name="RES_ARRAY_8_CTS_741X163">
 <description>CTS 741X163 8 resistor array
 http://media.digikey.com/pdf/Data%20Sheets/CTS%20Corporation%20PDFs/Chip%20Resistor%20Arrays_74x_Series.pdf</description>
-<text x="0" y="2" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
-<text x="0" y="-2" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="1.365" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
+<text x="0" y="-1.365" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
 <wire x1="-1.975" y1="0.8" x2="1.975" y2="0.8" width="0.127" layer="21"/>
 <wire x1="1.975" y1="0.8" x2="1.975" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="1.975" y1="-0.8" x2="-1.975" y2="-0.8" width="0.127" layer="21"/>
