@@ -3049,9 +3049,9 @@ http://www.kingbrightusa.com/images/catalog/SPEC/APT2012SECK-J4-PRV.pdf</descrip
 <package name="LED_KINGBRIGHT_BICOLOR_INDICATOR_LAMP">
 <description>Kingbright T-1 3/4 (5mm) BI-COLOR INDICATOR LAMP
 Part Number: WP59EGC</description>
-<pad name="2" x="0" y="0" drill="0.8"/>
-<pad name="1" x="0" y="2.54" drill="0.8" shape="square" first="yes"/>
-<pad name="3" x="0" y="-2.54" drill="0.8"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.6764"/>
+<pad name="1" x="0" y="2.54" drill="0.8" diameter="1.6764" shape="square" first="yes"/>
+<pad name="3" x="0" y="-2.54" drill="0.8" diameter="1.6764"/>
 <circle x="0" y="0" radius="2.95" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
