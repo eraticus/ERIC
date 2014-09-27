@@ -267,8 +267,10 @@ for 2430 and 2450 coin cell batteries</description>
 <wire x1="-26.3144" y1="-18.7452" x2="-26.3144" y2="18.7452" width="0.127" layer="21"/>
 <hole x="0" y="-11.7475" drill="3.302"/>
 <hole x="0" y="11.7475" drill="3.302"/>
-<pad name="+" x="23.7236" y="-11.7475" drill="1.016" diameter="1.778" shape="square"/>
-<pad name="-" x="23.7236" y="0" drill="1.016" diameter="1.778" shape="square"/>
+<pad name="+" x="23.7236" y="-12.7" drill="1.016" diameter="2.1844" shape="square"/>
+<pad name="-" x="23.7236" y="0" drill="1.016" diameter="2.1844"/>
+<text x="21.59" y="-11.43" size="1.778" layer="21" font="vector" align="center">+</text>
+<text x="21.59" y="0" size="1.778" layer="21" font="vector" align="center">-</text>
 </package>
 </packages>
 <symbols>
