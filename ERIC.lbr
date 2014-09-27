@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3502,8 +3502,8 @@ http://www.molex.com/pdm_docs/sd/1051330011_sd.pdf</description>
 <description>Keystone non-insultated jack (banana)
 575-4K-ND</description>
 <pad name="P$1" x="0" y="0" drill="5.3" diameter="10.45"/>
-<circle x="0" y="0" radius="2.095" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="3.96" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2.0955" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="3.9624" width="0.127" layer="51"/>
 </package>
 <package name="PC_TEST_POINT_MULTIPURPOSE">
 <description>5011K-ND
